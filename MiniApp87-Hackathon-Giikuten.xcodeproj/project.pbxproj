@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		871E126628ADFFF500F0B1E3 /* MiniApp87_Hackathon_GiikutenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871E126528ADFFF500F0B1E3 /* MiniApp87_Hackathon_GiikutenApp.swift */; };
-		871E126828ADFFF500F0B1E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871E126728ADFFF500F0B1E3 /* ContentView.swift */; };
 		871E126A28ADFFF500F0B1E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 871E126928ADFFF500F0B1E3 /* Assets.xcassets */; };
 		871E126D28ADFFF500F0B1E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 871E126C28ADFFF500F0B1E3 /* Preview Assets.xcassets */; };
+		871E127528AE047900F0B1E3 /* MainContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871E127428AE047900F0B1E3 /* MainContentView.swift */; };
+		871E127828AE04FC00F0B1E3 /* TotalMoneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871E127728AE04FC00F0B1E3 /* TotalMoneyView.swift */; };
+		871E127A28AE0B8B00F0B1E3 /* MainModalContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871E127928AE0B8B00F0B1E3 /* MainModalContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		871E126228ADFFF500F0B1E3 /* MiniApp87-Hackathon-Giikuten.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MiniApp87-Hackathon-Giikuten.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		871E126528ADFFF500F0B1E3 /* MiniApp87_Hackathon_GiikutenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniApp87_Hackathon_GiikutenApp.swift; sourceTree = "<group>"; };
-		871E126728ADFFF500F0B1E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		871E126928ADFFF500F0B1E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		871E126C28ADFFF500F0B1E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		871E127428AE047900F0B1E3 /* MainContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContentView.swift; sourceTree = "<group>"; };
+		871E127728AE04FC00F0B1E3 /* TotalMoneyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalMoneyView.swift; sourceTree = "<group>"; };
+		871E127928AE0B8B00F0B1E3 /* MainModalContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModalContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				871E126528ADFFF500F0B1E3 /* MiniApp87_Hackathon_GiikutenApp.swift */,
-				871E126728ADFFF500F0B1E3 /* ContentView.swift */,
+				871E127328AE026F00F0B1E3 /* View */,
 				871E126928ADFFF500F0B1E3 /* Assets.xcassets */,
 				871E126B28ADFFF500F0B1E3 /* Preview Content */,
 			);
@@ -65,6 +69,24 @@
 				871E126C28ADFFF500F0B1E3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		871E127328AE026F00F0B1E3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				871E127428AE047900F0B1E3 /* MainContentView.swift */,
+				871E127928AE0B8B00F0B1E3 /* MainModalContentView.swift */,
+				871E127628AE049300F0B1E3 /* Main */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		871E127628AE049300F0B1E3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				871E127728AE04FC00F0B1E3 /* TotalMoneyView.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +159,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				871E126828ADFFF500F0B1E3 /* ContentView.swift in Sources */,
+				871E127528AE047900F0B1E3 /* MainContentView.swift in Sources */,
 				871E126628ADFFF500F0B1E3 /* MiniApp87_Hackathon_GiikutenApp.swift in Sources */,
+				871E127A28AE0B8B00F0B1E3 /* MainModalContentView.swift in Sources */,
+				871E127828AE04FC00F0B1E3 /* TotalMoneyView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

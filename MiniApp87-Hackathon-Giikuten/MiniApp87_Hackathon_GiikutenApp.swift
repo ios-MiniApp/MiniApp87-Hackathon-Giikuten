@@ -11,7 +11,7 @@ import SwiftUI
 struct MiniApp87_Hackathon_GiikutenApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainContentView()
         }
     }
 }
