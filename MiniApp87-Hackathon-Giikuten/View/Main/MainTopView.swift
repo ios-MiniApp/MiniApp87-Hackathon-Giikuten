@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct TotalMoneyView: View {
+struct MainTopView: View {
     @State var isPressedAccount = false
 
     var body: some View {
@@ -39,7 +39,7 @@ struct TotalMoneyView: View {
 
 struct TotalMoneyView_Previews: PreviewProvider {
     static var previews: some View {
-        TotalMoneyView()
+        MainTopView()
             .previewLayout(.fixed(width: 400.0, height: 200.0))
     }
 }

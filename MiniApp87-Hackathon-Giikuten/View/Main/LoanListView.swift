@@ -1,0 +1,50 @@
+//
+//  LeadingAndBorrowingListView.swift
+//  MiniApp87-Hackathon-Giikuten
+//
+//  Created by 前田航汰 on 2022/08/19.
+//
+
+import SwiftUI
+
+struct LoanListView: View {
+
+    let title: String
+    let person: String
+    let money: Int
+
+    var body: some View {
+        HStack {
+            // 円形のやつ
+            HStack {
+                Text("5")
+                    .offset(x: 7, y: 0)
+                    .font(.title2)
+                Text("day")
+                    .font(.caption2)
+                    .offset(x: 0, y: 5)
+            }
+            .frame(width: 60, height: 60)
+            .foregroundColor(Color.white)
+            .background(Color.gray)
+            .overlay(RoundedRectangle(cornerRadius: 35).stroke(Color.red, lineWidth: 5))
+            .cornerRadius(35)
+
+            VStack {
+                Text(title)
+                Text(person)
+            }
+            Spacer()
+            Text("¥ \(money)")
+        }
+        .frame(height: 70)
+        .listRowBackground(Color.clear)
+    }
+}
+
+struct LoanListView_Previews: PreviewProvider {
+    static var previews: some View {
+        LoanListView(title: "お好み焼き", person: "尾崎豊", money: 5500)
+            .previewLayout(.fixed(width: 400.0, height: 70.0))
+    }
+}

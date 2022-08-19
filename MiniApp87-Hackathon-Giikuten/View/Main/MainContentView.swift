@@ -9,8 +9,17 @@ import SwiftUI
 
 struct MainContentView: View {
 
+    init(){
+        //List全体の背景色の設定
+        UITableView.appearance().backgroundColor = .clear
+    }
+
     var body: some View {
-        HStack {
+        VStack {
+            MainTopView()
+                .frame(height: 200)
+            Spacer()
+            MainBottomView()
         }
 
     }

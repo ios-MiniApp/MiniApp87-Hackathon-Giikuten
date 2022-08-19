@@ -11,8 +11,11 @@
 		871E126A28ADFFF500F0B1E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 871E126928ADFFF500F0B1E3 /* Assets.xcassets */; };
 		871E126D28ADFFF500F0B1E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 871E126C28ADFFF500F0B1E3 /* Preview Assets.xcassets */; };
 		871E127528AE047900F0B1E3 /* MainContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871E127428AE047900F0B1E3 /* MainContentView.swift */; };
-		871E127828AE04FC00F0B1E3 /* TotalMoneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871E127728AE04FC00F0B1E3 /* TotalMoneyView.swift */; };
+		871E127828AE04FC00F0B1E3 /* MainTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871E127728AE04FC00F0B1E3 /* MainTopView.swift */; };
 		87911C1C28AF4C46008BC41F /* ShadowLandscapeButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87911C1B28AF4C46008BC41F /* ShadowLandscapeButtonView.swift */; };
+		87911C1E28AF51E1008BC41F /* MainBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87911C1D28AF51E1008BC41F /* MainBottomView.swift */; };
+		87911C2128AF52F3008BC41F /* PersonInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87911C2028AF52F3008BC41F /* PersonInfo.swift */; };
+		87911C2328AF5DC6008BC41F /* LoanListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87911C2228AF5DC6008BC41F /* LoanListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,8 +24,11 @@
 		871E126928ADFFF500F0B1E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		871E126C28ADFFF500F0B1E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		871E127428AE047900F0B1E3 /* MainContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContentView.swift; sourceTree = "<group>"; };
-		871E127728AE04FC00F0B1E3 /* TotalMoneyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalMoneyView.swift; sourceTree = "<group>"; };
+		871E127728AE04FC00F0B1E3 /* MainTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTopView.swift; sourceTree = "<group>"; };
 		87911C1B28AF4C46008BC41F /* ShadowLandscapeButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowLandscapeButtonView.swift; sourceTree = "<group>"; };
+		87911C1D28AF51E1008BC41F /* MainBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainBottomView.swift; sourceTree = "<group>"; };
+		87911C2028AF52F3008BC41F /* PersonInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonInfo.swift; sourceTree = "<group>"; };
+		87911C2228AF5DC6008BC41F /* LoanListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,7 @@
 			children = (
 				871E126528ADFFF500F0B1E3 /* MiniApp87_Hackathon_GiikutenApp.swift */,
 				871E127328AE026F00F0B1E3 /* View */,
+				87911C1F28AF52A9008BC41F /* Model */,
 				871E126928ADFFF500F0B1E3 /* Assets.xcassets */,
 				871E126B28ADFFF500F0B1E3 /* Preview Content */,
 			);
@@ -74,8 +81,7 @@
 		871E127328AE026F00F0B1E3 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				871E127428AE047900F0B1E3 /* MainContentView.swift */,
-				87911C1B28AF4C46008BC41F /* ShadowLandscapeButtonView.swift */,
+				87911C2428AF5DE6008BC41F /* Helpers */,
 				871E127628AE049300F0B1E3 /* Main */,
 			);
 			path = View;
@@ -84,9 +90,28 @@
 		871E127628AE049300F0B1E3 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				871E127728AE04FC00F0B1E3 /* TotalMoneyView.swift */,
+				871E127428AE047900F0B1E3 /* MainContentView.swift */,
+				87911C1D28AF51E1008BC41F /* MainBottomView.swift */,
+				871E127728AE04FC00F0B1E3 /* MainTopView.swift */,
+				87911C2228AF5DC6008BC41F /* LoanListView.swift */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		87911C1F28AF52A9008BC41F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				87911C2028AF52F3008BC41F /* PersonInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		87911C2428AF5DE6008BC41F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				87911C1B28AF4C46008BC41F /* ShadowLandscapeButtonView.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,9 +185,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				871E127528AE047900F0B1E3 /* MainContentView.swift in Sources */,
+				87911C2128AF52F3008BC41F /* PersonInfo.swift in Sources */,
 				871E126628ADFFF500F0B1E3 /* MiniApp87_Hackathon_GiikutenApp.swift in Sources */,
+				87911C2328AF5DC6008BC41F /* LoanListView.swift in Sources */,
 				87911C1C28AF4C46008BC41F /* ShadowLandscapeButtonView.swift in Sources */,
-				871E127828AE04FC00F0B1E3 /* TotalMoneyView.swift in Sources */,
+				87911C1E28AF51E1008BC41F /* MainBottomView.swift in Sources */,
+				871E127828AE04FC00F0B1E3 /* MainTopView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
