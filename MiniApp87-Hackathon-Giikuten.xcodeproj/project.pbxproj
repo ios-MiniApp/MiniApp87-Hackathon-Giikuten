@@ -12,7 +12,7 @@
 		871E126D28ADFFF500F0B1E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 871E126C28ADFFF500F0B1E3 /* Preview Assets.xcassets */; };
 		871E127528AE047900F0B1E3 /* MainContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871E127428AE047900F0B1E3 /* MainContentView.swift */; };
 		871E127828AE04FC00F0B1E3 /* TotalMoneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871E127728AE04FC00F0B1E3 /* TotalMoneyView.swift */; };
-		871E127A28AE0B8B00F0B1E3 /* MainModalContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871E127928AE0B8B00F0B1E3 /* MainModalContentView.swift */; };
+		87911C1C28AF4C46008BC41F /* ShadowLandscapeButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87911C1B28AF4C46008BC41F /* ShadowLandscapeButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +22,7 @@
 		871E126C28ADFFF500F0B1E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		871E127428AE047900F0B1E3 /* MainContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContentView.swift; sourceTree = "<group>"; };
 		871E127728AE04FC00F0B1E3 /* TotalMoneyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalMoneyView.swift; sourceTree = "<group>"; };
-		871E127928AE0B8B00F0B1E3 /* MainModalContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModalContentView.swift; sourceTree = "<group>"; };
+		87911C1B28AF4C46008BC41F /* ShadowLandscapeButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowLandscapeButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				871E127428AE047900F0B1E3 /* MainContentView.swift */,
-				871E127928AE0B8B00F0B1E3 /* MainModalContentView.swift */,
+				87911C1B28AF4C46008BC41F /* ShadowLandscapeButtonView.swift */,
 				871E127628AE049300F0B1E3 /* Main */,
 			);
 			path = View;
@@ -161,7 +161,7 @@
 			files = (
 				871E127528AE047900F0B1E3 /* MainContentView.swift in Sources */,
 				871E126628ADFFF500F0B1E3 /* MiniApp87_Hackathon_GiikutenApp.swift in Sources */,
-				871E127A28AE0B8B00F0B1E3 /* MainModalContentView.swift in Sources */,
+				87911C1C28AF4C46008BC41F /* ShadowLandscapeButtonView.swift in Sources */,
 				871E127828AE04FC00F0B1E3 /* TotalMoneyView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct TotalMoneyView: View {
+    @State var isPressedAccount = false
+
     var body: some View {
         ZStack{
             Color(UIColor.systemCyan)
@@ -15,20 +17,17 @@ struct TotalMoneyView: View {
 
             VStack(spacing: 30.0) {
                 HStack{
-                    Text("アカウント名 ？")
-                        .padding()
+                    ShadowLandscapeButtonView(
+                        isPressed: $isPressedAccount,
+                        displayName: "アカウント名",
+                        systemImageName: "chevron.down.circle"
+                    )
                     Spacer()
-
-                    Text("通知")
-                    Text("2")
-                        .foregroundColor(Color.red)
-                        .offset(x: -12, y: -8)
-                    Text("設定")
-                        .padding()
                 }
 
-                Text("¥58,034")
+                Text("¥ 58,034")
                     .font(.title)
+                    .bold()
 
                 Spacer()
             }
