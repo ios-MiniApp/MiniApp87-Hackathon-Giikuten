@@ -13,8 +13,8 @@ struct ScanView: View {
             .font(.title)
         Text("Scan画面の実装")
             .font(.title)
-        Button("仮にスキャンできた"){
-            
+        NavigationLink(destination: ConfirmScanInfoView()) {
+            Text("仮にスキャンできた").font(.callout)
         }
     }
 }
