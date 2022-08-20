@@ -12,7 +12,6 @@ struct ConfirmLendInfoView: View {
     @Binding var money: String
     @Binding var endTime: Date
 
-
     func dateToString(date: Date) -> String {
         let dateFormatter = DateFormatter()
         dateFormatter.locale = Locale(identifier: "ja_JP")
@@ -21,15 +20,12 @@ struct ConfirmLendInfoView: View {
         return dateFormatter.string(from: endTime)
     }
 
-
     var body: some View {
         VStack{
             Text(title)
             Text(money)
 
             Text(dateToString(date: endTime))
-
-
 
             NavigationLink(destination: QRLendInfoView()) {
                 Text("OK").font(.callout)

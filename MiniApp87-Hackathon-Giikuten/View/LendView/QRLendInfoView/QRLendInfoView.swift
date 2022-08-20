@@ -11,7 +11,10 @@ struct QRLendInfoView: View {
     var body: some View {
         Text("QRの表示")
             .font(.title)
-        Text("通信が終わったら、自動で画面帰らせたい")
+            .padding()
+        Text("通信が終わったら、")
+            .font(.title)
+        Text("自動で画面帰らせたい")
             .font(.title)
     }
 }
