@@ -13,6 +13,10 @@
 		871E127528AE047900F0B1E3 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871E127428AE047900F0B1E3 /* MainView.swift */; };
 		871E127828AE04FC00F0B1E3 /* MainTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871E127728AE04FC00F0B1E3 /* MainTopView.swift */; };
 		874AD0D928B06CE1001FF795 /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874AD0D828B06CE1001FF795 /* ScanView.swift */; };
+		874AD0DE28B07052001FF795 /* RegisterLendInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874AD0DD28B07052001FF795 /* RegisterLendInfoView.swift */; };
+		874AD0E128B078F1001FF795 /* ConfirmLendInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874AD0E028B078F1001FF795 /* ConfirmLendInfoView.swift */; };
+		874AD0E428B07A81001FF795 /* QRLendInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874AD0E328B07A81001FF795 /* QRLendInfoView.swift */; };
+		874AD0E728B07B1A001FF795 /* ConfirmScanInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874AD0E628B07B19001FF795 /* ConfirmScanInfoView.swift */; };
 		87911C1C28AF4C46008BC41F /* ShadowLandscapeButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87911C1B28AF4C46008BC41F /* ShadowLandscapeButtonView.swift */; };
 		87911C1E28AF51E1008BC41F /* MainBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87911C1D28AF51E1008BC41F /* MainBottomView.swift */; };
 		87911C2128AF52F3008BC41F /* PersonInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87911C2028AF52F3008BC41F /* PersonInfo.swift */; };
@@ -27,6 +31,10 @@
 		871E127428AE047900F0B1E3 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		871E127728AE04FC00F0B1E3 /* MainTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTopView.swift; sourceTree = "<group>"; };
 		874AD0D828B06CE1001FF795 /* ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
+		874AD0DD28B07052001FF795 /* RegisterLendInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterLendInfoView.swift; sourceTree = "<group>"; };
+		874AD0E028B078F1001FF795 /* ConfirmLendInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmLendInfoView.swift; sourceTree = "<group>"; };
+		874AD0E328B07A81001FF795 /* QRLendInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRLendInfoView.swift; sourceTree = "<group>"; };
+		874AD0E628B07B19001FF795 /* ConfirmScanInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmScanInfoView.swift; sourceTree = "<group>"; };
 		87911C1B28AF4C46008BC41F /* ShadowLandscapeButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowLandscapeButtonView.swift; sourceTree = "<group>"; };
 		87911C1D28AF51E1008BC41F /* MainBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainBottomView.swift; sourceTree = "<group>"; };
 		87911C2028AF52F3008BC41F /* PersonInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonInfo.swift; sourceTree = "<group>"; };
@@ -83,22 +91,25 @@
 		871E127328AE026F00F0B1E3 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				874AD0DA28B06F28001FF795 /* ScanView */,
+				874AD0E528B07B03001FF795 /* ConfirmScanInfoView */,
+				874AD0E228B07A6C001FF795 /* QRLendInfoView */,
+				874AD0DF28B078D3001FF795 /* ConfirmLendInfoView */,
+				874AD0DC28B07036001FF795 /* RegisterLendInfoView */,
 				87911C2428AF5DE6008BC41F /* Helpers */,
-				871E127628AE049300F0B1E3 /* Main */,
+				874AD0DB28B07012001FF795 /* Delete */,
+				874AD0DA28B06F28001FF795 /* ScanView */,
+				871E127628AE049300F0B1E3 /* MainView */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		871E127628AE049300F0B1E3 /* Main */ = {
+		871E127628AE049300F0B1E3 /* MainView */ = {
 			isa = PBXGroup;
 			children = (
 				871E127428AE047900F0B1E3 /* MainView.swift */,
 				87911C2228AF5DC6008BC41F /* LoanListView.swift */,
-				87911C1D28AF51E1008BC41F /* MainBottomView.swift */,
-				871E127728AE04FC00F0B1E3 /* MainTopView.swift */,
 			);
-			path = Main;
+			path = MainView;
 			sourceTree = "<group>";
 		};
 		874AD0DA28B06F28001FF795 /* ScanView */ = {
@@ -107,6 +118,47 @@
 				874AD0D828B06CE1001FF795 /* ScanView.swift */,
 			);
 			path = ScanView;
+			sourceTree = "<group>";
+		};
+		874AD0DB28B07012001FF795 /* Delete */ = {
+			isa = PBXGroup;
+			children = (
+				87911C1D28AF51E1008BC41F /* MainBottomView.swift */,
+				871E127728AE04FC00F0B1E3 /* MainTopView.swift */,
+			);
+			path = Delete;
+			sourceTree = "<group>";
+		};
+		874AD0DC28B07036001FF795 /* RegisterLendInfoView */ = {
+			isa = PBXGroup;
+			children = (
+				874AD0DD28B07052001FF795 /* RegisterLendInfoView.swift */,
+			);
+			path = RegisterLendInfoView;
+			sourceTree = "<group>";
+		};
+		874AD0DF28B078D3001FF795 /* ConfirmLendInfoView */ = {
+			isa = PBXGroup;
+			children = (
+				874AD0E028B078F1001FF795 /* ConfirmLendInfoView.swift */,
+			);
+			path = ConfirmLendInfoView;
+			sourceTree = "<group>";
+		};
+		874AD0E228B07A6C001FF795 /* QRLendInfoView */ = {
+			isa = PBXGroup;
+			children = (
+				874AD0E328B07A81001FF795 /* QRLendInfoView.swift */,
+			);
+			path = QRLendInfoView;
+			sourceTree = "<group>";
+		};
+		874AD0E528B07B03001FF795 /* ConfirmScanInfoView */ = {
+			isa = PBXGroup;
+			children = (
+				874AD0E628B07B19001FF795 /* ConfirmScanInfoView.swift */,
+			);
+			path = ConfirmScanInfoView;
 			sourceTree = "<group>";
 		};
 		87911C1F28AF52A9008BC41F /* Model */ = {
@@ -197,9 +249,13 @@
 			files = (
 				871E127528AE047900F0B1E3 /* MainView.swift in Sources */,
 				874AD0D928B06CE1001FF795 /* ScanView.swift in Sources */,
+				874AD0DE28B07052001FF795 /* RegisterLendInfoView.swift in Sources */,
 				87911C2128AF52F3008BC41F /* PersonInfo.swift in Sources */,
 				871E126628ADFFF500F0B1E3 /* MiniApp87_Hackathon_GiikutenApp.swift in Sources */,
+				874AD0E428B07A81001FF795 /* QRLendInfoView.swift in Sources */,
+				874AD0E728B07B1A001FF795 /* ConfirmScanInfoView.swift in Sources */,
 				87911C2328AF5DC6008BC41F /* LoanListView.swift in Sources */,
+				874AD0E128B078F1001FF795 /* ConfirmLendInfoView.swift in Sources */,
 				87911C1C28AF4C46008BC41F /* ShadowLandscapeButtonView.swift in Sources */,
 				87911C1E28AF51E1008BC41F /* MainBottomView.swift in Sources */,
 				871E127828AE04FC00F0B1E3 /* MainTopView.swift in Sources */,

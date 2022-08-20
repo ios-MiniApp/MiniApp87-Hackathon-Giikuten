@@ -122,8 +122,8 @@ struct MainView: View {
                                 NavigationLink(destination: ScanView()) {
                                     Text("スキャン画面").font(.callout)
                                 }
-                                NavigationLink(destination: ScanView()) {
-                                    Text("スキャン画面").font(.callout)
+                                NavigationLink(destination: RegisterLendInfoView()) {
+                                    Text("登録画面").font(.callout)
                                 }
                             }
                         }
