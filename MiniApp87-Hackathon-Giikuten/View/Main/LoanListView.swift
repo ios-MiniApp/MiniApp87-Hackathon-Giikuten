@@ -25,9 +25,9 @@ struct LoanListView: View {
                     .offset(x: 0, y: 5)
             }
             .frame(width: 60, height: 60)
-            .foregroundColor(Color.white)
-            .background(Color.gray)
-            .overlay(RoundedRectangle(cornerRadius: 35).stroke(Color.red, lineWidth: 5))
+            .foregroundColor(Color.gray)
+            .background(Color.init(red: 0.95, green: 0.95, blue: 0.95))
+            .overlay(RoundedRectangle(cornerRadius: 35).stroke(Color.init(red: 0.90, green: 0.90, blue: 0.90), lineWidth: 5))
             .cornerRadius(35)
 
             VStack {
