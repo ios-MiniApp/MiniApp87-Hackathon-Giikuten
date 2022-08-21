@@ -11,17 +11,16 @@
 		871E126A28ADFFF500F0B1E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 871E126928ADFFF500F0B1E3 /* Assets.xcassets */; };
 		871E126D28ADFFF500F0B1E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 871E126C28ADFFF500F0B1E3 /* Preview Assets.xcassets */; };
 		871E127528AE047900F0B1E3 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871E127428AE047900F0B1E3 /* MainView.swift */; };
-		871E127828AE04FC00F0B1E3 /* MainTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871E127728AE04FC00F0B1E3 /* MainTopView.swift */; };
 		874AD0D928B06CE1001FF795 /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874AD0D828B06CE1001FF795 /* ScanView.swift */; };
 		874AD0DE28B07052001FF795 /* RegisterLendInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874AD0DD28B07052001FF795 /* RegisterLendInfoView.swift */; };
 		874AD0E128B078F1001FF795 /* ConfirmLendInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874AD0E028B078F1001FF795 /* ConfirmLendInfoView.swift */; };
 		874AD0E428B07A81001FF795 /* QRLendInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874AD0E328B07A81001FF795 /* QRLendInfoView.swift */; };
 		874AD0E728B07B1A001FF795 /* ConfirmScanInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874AD0E628B07B19001FF795 /* ConfirmScanInfoView.swift */; };
 		874AD0EC28B07DB8001FF795 /* RegisterPersonalInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874AD0EB28B07DB8001FF795 /* RegisterPersonalInfoView.swift */; };
-		87911C1C28AF4C46008BC41F /* ShadowLandscapeButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87911C1B28AF4C46008BC41F /* ShadowLandscapeButtonView.swift */; };
-		87911C1E28AF51E1008BC41F /* MainBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87911C1D28AF51E1008BC41F /* MainBottomView.swift */; };
+		87911C1C28AF4C46008BC41F /* ShadowButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87911C1B28AF4C46008BC41F /* ShadowButtonView.swift */; };
 		87911C2128AF52F3008BC41F /* PersonInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87911C2028AF52F3008BC41F /* PersonInfo.swift */; };
 		87911C2328AF5DC6008BC41F /* LoanListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87911C2228AF5DC6008BC41F /* LoanListView.swift */; };
+		87DC369428B1E3210063ABDC /* PartlyRoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DC369328B1E3210063ABDC /* PartlyRoundedCorner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,17 +29,16 @@
 		871E126928ADFFF500F0B1E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		871E126C28ADFFF500F0B1E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		871E127428AE047900F0B1E3 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
-		871E127728AE04FC00F0B1E3 /* MainTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTopView.swift; sourceTree = "<group>"; };
 		874AD0D828B06CE1001FF795 /* ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
 		874AD0DD28B07052001FF795 /* RegisterLendInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterLendInfoView.swift; sourceTree = "<group>"; };
 		874AD0E028B078F1001FF795 /* ConfirmLendInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmLendInfoView.swift; sourceTree = "<group>"; };
 		874AD0E328B07A81001FF795 /* QRLendInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRLendInfoView.swift; sourceTree = "<group>"; };
 		874AD0E628B07B19001FF795 /* ConfirmScanInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmScanInfoView.swift; sourceTree = "<group>"; };
 		874AD0EB28B07DB8001FF795 /* RegisterPersonalInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPersonalInfoView.swift; sourceTree = "<group>"; };
-		87911C1B28AF4C46008BC41F /* ShadowLandscapeButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowLandscapeButtonView.swift; sourceTree = "<group>"; };
-		87911C1D28AF51E1008BC41F /* MainBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainBottomView.swift; sourceTree = "<group>"; };
+		87911C1B28AF4C46008BC41F /* ShadowButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowButtonView.swift; sourceTree = "<group>"; };
 		87911C2028AF52F3008BC41F /* PersonInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonInfo.swift; sourceTree = "<group>"; };
 		87911C2228AF5DC6008BC41F /* LoanListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanListView.swift; sourceTree = "<group>"; };
+		87DC369328B1E3210063ABDC /* PartlyRoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartlyRoundedCorner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +95,6 @@
 				871E127628AE049300F0B1E3 /* MainView */,
 				874AD0E928B07CD8001FF795 /* LendView */,
 				874AD0E828B07CCF001FF795 /* BorrowView */,
-				874AD0DB28B07012001FF795 /* Delete */,
 				87911C2428AF5DE6008BC41F /* Helpers */,
 			);
 			path = View;
@@ -118,15 +115,6 @@
 				874AD0D828B06CE1001FF795 /* ScanView.swift */,
 			);
 			path = ScanView;
-			sourceTree = "<group>";
-		};
-		874AD0DB28B07012001FF795 /* Delete */ = {
-			isa = PBXGroup;
-			children = (
-				87911C1D28AF51E1008BC41F /* MainBottomView.swift */,
-				871E127728AE04FC00F0B1E3 /* MainTopView.swift */,
-			);
-			path = Delete;
 			sourceTree = "<group>";
 		};
 		874AD0DC28B07036001FF795 /* RegisterLendInfoView */ = {
@@ -192,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				87911C2028AF52F3008BC41F /* PersonInfo.swift */,
+				87DC369328B1E3210063ABDC /* PartlyRoundedCorner.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -199,7 +188,7 @@
 		87911C2428AF5DE6008BC41F /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				87911C1B28AF4C46008BC41F /* ShadowLandscapeButtonView.swift */,
+				87911C1B28AF4C46008BC41F /* ShadowButtonView.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -276,6 +265,7 @@
 			files = (
 				871E127528AE047900F0B1E3 /* MainView.swift in Sources */,
 				874AD0D928B06CE1001FF795 /* ScanView.swift in Sources */,
+				87DC369428B1E3210063ABDC /* PartlyRoundedCorner.swift in Sources */,
 				874AD0DE28B07052001FF795 /* RegisterLendInfoView.swift in Sources */,
 				87911C2128AF52F3008BC41F /* PersonInfo.swift in Sources */,
 				871E126628ADFFF500F0B1E3 /* MiniApp87_Hackathon_GiikutenApp.swift in Sources */,
@@ -284,9 +274,7 @@
 				87911C2328AF5DC6008BC41F /* LoanListView.swift in Sources */,
 				874AD0EC28B07DB8001FF795 /* RegisterPersonalInfoView.swift in Sources */,
 				874AD0E128B078F1001FF795 /* ConfirmLendInfoView.swift in Sources */,
-				87911C1C28AF4C46008BC41F /* ShadowLandscapeButtonView.swift in Sources */,
-				87911C1E28AF51E1008BC41F /* MainBottomView.swift in Sources */,
-				871E127828AE04FC00F0B1E3 /* MainTopView.swift in Sources */,
+				87911C1C28AF4C46008BC41F /* ShadowButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +403,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MiniApp87-Hackathon-Giikuten/Preview Content\"";
+				DEVELOPMENT_TEAM = 558ZJSQN67;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -422,6 +411,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -443,6 +433,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MiniApp87-Hackathon-Giikuten/Preview Content\"";
+				DEVELOPMENT_TEAM = 558ZJSQN67;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -450,6 +441,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

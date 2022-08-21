@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ShadowLandscapeButtonView: View {
+struct ShadowButtonView: View {
     @Binding var isPressed: Bool
     var displayName: String?
     var systemImageName: String?
@@ -34,10 +34,10 @@ struct ShadowLandscapeButtonView: View {
             }
         }
         .padding()
-        .accentColor(Color.white)
-        .background(Color.blue)
-        .cornerRadius(26)
-        .shadow(color: Color.blue, radius: 15, x: 0, y: 5)
+        .accentColor(Color.black)
+        .background(Color.white)
+        .cornerRadius(25)
+        .shadow(color: Color.white, radius: 10, x: 0, y: 3)
         .scaleEffect(isPressed ? 0.9 : 1.0)
         .animation(.easeOut(duration: 1.0), value: isPressed)
         .padding()
